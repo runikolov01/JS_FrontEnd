@@ -1,0 +1,5 @@
+function substring(word, start, num) {
+    console.log(word.substring(start, start + num));
+}
+
+//substring('ASentence', 1, 8);
