@@ -11,4 +11,4 @@ function sortList(list) {
     }
 }
 
-//sortList(["John", "Bob", "Christina", "Ema"]);
+sortList(["John", "Bob", "Christina", "Ema"]);
