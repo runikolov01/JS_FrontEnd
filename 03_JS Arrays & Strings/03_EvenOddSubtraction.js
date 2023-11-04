@@ -3,7 +3,7 @@ function subtract(arr) {
     let evenNums = 0;
 
     for (let i = 0; i < arr.length; i++) {
-        let curNumber = arr[i];
+        let curNumber = Number(arr[i]);
         if (curNumber % 2 == 0) {
             evenNums += curNumber;
         } else {
