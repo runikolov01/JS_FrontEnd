@@ -6,7 +6,7 @@ function getAddresses(input) {
         addressList[name] = address;
     }
 
-    const peopleNames = Object.entries(addressList);
+    //const peopleNames = Object.entries(addressList);
     // const sortedPeople = peopleNames.sort();
     const sortedPeople = Object.entries(addressList);
     sortedPeople.sort((a, b) => a[0].localeCompare(b[0]));
